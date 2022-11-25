@@ -8,8 +8,8 @@ router.get('/', (req, res) => {
 	res.send('Hello World!')
 })
 
-app.get('*', function (req, res) {
-	res.send('what???', 404)
+router.get('*', function (req, res) {
+	res.status(404).send('what???')
 })
 
 module.exports = router
