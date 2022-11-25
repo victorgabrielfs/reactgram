@@ -1,26 +1,30 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/Front-End/node_modules
-/Front-End/.pnp
-/Front-End/.pnp.js
-
-# testing
-/Front-End/coverage
-
-# production
-/Front-End/build
-
-# misc
-/Front-End/.DS_Store
-/Front-End/.env.local
-/Front-End/.env.development.local
-/Front-End/.env.test.local
-/Front-End/.env.production.local
-
-/Front-End/npm-debug.log*
-/Front-End/yarn-debug.log*
-/Front-End/yarn-error.log*
-
-/Back-End/node_modules
-/Back-End/.env
+/FrontEnd/node_modules
+/FrontEnd/.pnp
+/FrontEnd/.pnp.js
+/FrontEnd/coverage
+/FrontEnd/build
+/FrontEnd/.DS_Store
+/FrontEnd/.env.local
+/FrontEnd/.env.development.local
+/FrontEnd/.env.test.local
+/FrontEnd/.env.production.local
+/FrontEnd/npm-debug.log*
+/FrontEnd/yarn-debug.log*
+/FrontEnd/yarn-error.log*
+/BackEnd/node_modules
+/BackEnd/.env
+/BackEnd/.pnp
+/BackEnd/.pnp.js
+/BackEnd/# testing
+/BackEnd/coverage
+/BackEnd/# production
+/BackEnd/build
+/BackEnd/# misc
+/BackEnd/.DS_Store
+/BackEnd/.env.local
+/BackEnd/.env.development.local
+/BackEnd/.env.test.local
+/BackEnd/.env.production.local
+/BackEnd/npm-debug.log*
+/BackEnd/yarn-debug.log*
+/BackEnd/yarn-error.log*
